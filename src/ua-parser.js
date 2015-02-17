@@ -252,6 +252,9 @@
                                                                                 // Chromium/Flock/RockMelt/Midori/Epiphany/Silk/Skyfire/Bolt/Iron
             ], [NAME, VERSION, MAJOR], [
 
+            /(chromeframe)\s+((\d+)\.\d+\.\d+)/i                                // Chrome Frame
+            ], [[NAME, 'Chrome Frame'], VERSION, MAJOR], [
+
             /(trident).+rv[:\s]((\d+)?[\w\.]+).+like\sgecko/i                   // IE11
             ], [[NAME, 'IE'], VERSION, MAJOR], [
 
